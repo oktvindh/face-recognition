@@ -1,0 +1,40 @@
+
+f1 <- jpeg::readJPEG("img/f1.jpg")
+vec_f1 <- c(f1)
+f2 <- jpeg::readJPEG("img/f2.jpg")
+vec_f2 <- c(f2)
+f3 <- jpeg::readJPEG("img/f3.jpg")
+vec_f3 <- c(f3)
+f4 <- jpeg::readJPEG("img/f4.jpg")
+vec_f4 <- c(f4)
+f5 <- jpeg::readJPEG("img/f5.jpg")
+vec_f5 <- c(f5)
+
+f <- rbind(vec_f1, vec_f2, vec_f3, vec_f4, vec_f5)
+
+g1 <- jpeg::readJPEG("img/g1.jpg")
+vec_g1 <- c(g1)
+g2 <- jpeg::readJPEG("img/g2.jpg")
+vec_g2 <- c(g2)
+g3 <- jpeg::readJPEG("img/g3.jpg")
+vec_g3 <- c(g3)
+g4 <- jpeg::readJPEG("img/g4.jpg")
+vec_g4 <- c(g4)
+g5 <- jpeg::readJPEG("img/g5.jpg")
+vec_g5 <- c(g5)
+
+g <- rbind(vec_g1, vec_g2, vec_g3, vec_g4, vec_g5)
+
+
+h1 <- jpeg::readJPEG("img/h1.jpg")
+vec_h1 <- c(h1)
+h2 <- jpeg::readJPEG("img/h2.jpg")
+vec_h2 <- c(h2)
+h3 <- jpeg::readJPEG("img/h3.jpg")
+vec_h3 <- c(h3)
+h4 <- jpeg::readJPEG("img/h4.jpg")
+vec_h4 <- c(h4)
+h5 <- jpeg::readJPEG("img/h5.jpg")
+vec_h5 <- c(h5)
+
+h <- rbind(vec_h1, vec_h2, vec_h3, vec_h4, vec_h5)
